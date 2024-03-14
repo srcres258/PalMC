@@ -26,7 +26,7 @@ public class PalMCEntities {
     }
 
     private static <T extends Entity> DeferredHolder<EntityType<? extends Entity>, EntityType<T>> register(String name, EntityType.Builder<T> builder) {
-        // *NOTE* that only an supplier can be given instead of a direct value,
+        // *NOTE* that only one supplier can be given instead of a direct value,
         // for instantiating registry objects here will lead to exceptions to be thrown
         // because the registry is still frozen by vanilla and has not been unfrozen by NeoForge yet.
         return register(name, () -> builder.build(name));
