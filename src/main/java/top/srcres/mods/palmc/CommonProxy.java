@@ -12,7 +12,7 @@ public class CommonProxy {
     public void setup(IEventBus eventBus) {
         PalMCRegistries.init(eventBus);
 
-        PalMCEntities.init();
+        PalMCEntities.init(eventBus);
         PalMCItems.init();
     }
 }
