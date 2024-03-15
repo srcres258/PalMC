@@ -21,6 +21,6 @@ public class HorusRenderer extends MobRenderer<EntityHorus, EntityHorusModel> {
 
     @Override
     public void render(EntityHorus pEntity, float pEntityYaw, float pPartialTicks, PoseStack pPoseStack, MultiBufferSource pBuffer, int pPackedLight) {
-        LogHelper.debug("rendering");//TODO
+        LogHelper.d("rendering");//TODO
     }
 }

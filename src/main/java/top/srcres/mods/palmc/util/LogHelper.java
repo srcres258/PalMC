@@ -96,4 +96,81 @@ public class LogHelper {
     public static void error(String msg, Throwable t) {
         getLogger().error(msg, t);
     }
+
+    // ----- abbreviations -----
+    public static void t(String msg) {
+        trace(msg);
+    }
+    public static void t(String format, Object arg) {
+        trace(format, arg);
+    }
+    public static void t(String format, Object arg1, Object arg2) {
+        trace(format, arg1, arg2);
+    }
+    public static void t(String format, Object... arguments) {
+        trace(format, arguments);
+    }
+    public static void t(String msg, Throwable t) {
+        trace(msg, t);
+    }
+    public static void d(String msg) {
+        debug(msg);
+    }
+    public static void d(String format, Object arg) {
+        debug(format, arg);
+    }
+    public static void d(String format, Object arg1, Object arg2) {
+        debug(format, arg1, arg2);
+    }
+    public static void d(String format, Object... arguments) {
+        debug(format, arguments);
+    }
+    public static void d(String msg, Throwable t) {
+        debug(msg, t);
+    }
+    public static void i(String msg) {
+        info(msg);
+    }
+    public static void i(String format, Object arg) {
+        info(format, arg);
+    }
+    public static void i(String format, Object arg1, Object arg2) {
+        info(format, arg1, arg2);
+    }
+    public static void i(String format, Object... arguments) {
+        info(format, arguments);
+    }
+    public static void i(String msg, Throwable t) {
+        info(msg, t);
+    }
+    public static void w(String msg) {
+        warn(msg);
+    }
+    public static void w(String format, Object arg) {
+        warn(format, arg);
+    }
+    public static void w(String format, Object arg1, Object arg2) {
+        warn(format, arg1, arg2);
+    }
+    public static void w(String format, Object... arguments) {
+        warn(format, arguments);
+    }
+    public static void w(String msg, Throwable t) {
+        warn(msg, t);
+    }
+    public static void e(String msg) {
+        error(msg);
+    }
+    public static void e(String format, Object arg) {
+        error(format, arg);
+    }
+    public static void e(String format, Object arg1, Object arg2) {
+        error(format, arg1, arg2);
+    }
+    public static void e(String format, Object... arguments) {
+        error(format, arguments);
+    }
+    public static void e(String msg, Throwable t) {
+        error(msg, t);
+    }
 }
