@@ -1,0 +1,32 @@
+# Blender 4.0.2 MTL File: 'Horus.blend'
+# www.blender.org
+
+newmtl material_0
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Eye.png
+map_d ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Eye.png
+
+newmtl material_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Brow_B.png
+map_d ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Brow_B.png
+
+newmtl material_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Body_B.png
+map_d ../../../../umodel_materials_ue5/export/Pal/Model/Character/Monster/Horus/T_Horus_Body_B.png
