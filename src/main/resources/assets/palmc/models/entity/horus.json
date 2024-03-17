@@ -1,5 +1,10 @@
 {
   "loader": "neoforge:obj",
   "flip_v": true,
-  "model": "palmc:models/entity/horus.obj"
+  "model": "palmc:models/entity/horus.obj",
+  "textures": {
+    "material_0": "palmc:textures/entity/horus/t_horus_eye.png",
+    "material_1": "palmc:textures/entity/horus/t_horus_brow_b.png",
+    "material_2": "palmc:textures/entity/horus/t_horus_body_b.png"
+  }
 }
