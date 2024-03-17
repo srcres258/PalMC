@@ -1,7 +1,13 @@
 pluginManagement {
     repositories {
         mavenLocal()
-        gradlePluginPortal()
+
+        if (gradleUseChineseMirror) {
+            maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        } else {
+            gradlePluginPortal()
+        }
+
         maven { url = 'https://maven.neoforged.net/releases' }
     }
 }
