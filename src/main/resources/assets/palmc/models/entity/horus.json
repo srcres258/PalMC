@@ -1,5 +1,5 @@
 {
-  "loader": "forge.obj",
+  "loader": "neoforge:obj",
   "flip_v": true,
   "model": "palmc:models/entity/horus.obj"
 }
